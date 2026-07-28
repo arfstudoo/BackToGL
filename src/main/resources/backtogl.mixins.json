@@ -1,0 +1,26 @@
+{
+	"required": true,
+	"package": "com.arfstudoo.backtogl.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"RenderSystemMixin",
+		"GlStateManagerMixin",
+		"WindowMixin",
+		"OptionInstanceMixin",
+		"GlBufferMixin",
+		"GpuAutoDetectorMixin",
+		"OptionsAutoFixMixin",
+		"GlDeviceBufferUsageFixMixin",
+		"GlBufferDirectMapFixMixin",
+		"BufferStorageForceMutableMixin",
+		"GpuBufferUsageFlagsFixMixin",
+		"DebugHudMixin",
+		"VideoSettingsScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "backtogl",
+	"version": "${version}",
+	"name": "BackToGL",
+	"description": "Restores the classic 26.1.2 OpenGL rendering pipeline and GlStateManager into Minecraft 26.2.",
+	"authors": [
+		"ArfStudoo"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/backtogl/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.arfstudoo.backtogl.BackToGL"
+		]
+	},
+	"mixins": [
+		"backtogl.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
